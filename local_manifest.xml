@@ -6,8 +6,6 @@
          fetch="https://github.com/Dragon-1237" />
   <remote name="re" 
          fetch="https://github.com/renoir-development" />
-  <remote name="sh2" 
-         fetch="https://gitlab.com/SharmagRit" />
 
  <!-- Trees -->
 
@@ -38,7 +36,7 @@
  <!-- Vendor -->
  <project path="vendor/xiaomi" 
           name="proprietary_xiaomi_veux" 
-          remote="sh2" 
+          remote="ki" 
           revision="twelve" />
 
 
