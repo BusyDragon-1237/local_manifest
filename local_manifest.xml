@@ -32,7 +32,7 @@
           revision="lineage-19.1-caf-sm8350" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi" 
+ <project path="vendor/xiaomi/veux" 
           name="vendor_xiaomi_veux" 
           remote="ki" 
           revision="twelve" />
