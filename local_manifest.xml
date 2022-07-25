@@ -16,8 +16,8 @@
           revision="lineage-19.1" /> 
 
  <!-- Common Tree -->
- <project path="device/xiaomi/sm6375-common" 
-          name="android_device_xiaomi_sm6375-common" 
+ <project path="device/xiaomi/veux-common" 
+          name="android_device_xiaomi_veux-common" 
           remote="ki" 
           revision="lineage-19.1" />
 
