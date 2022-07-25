@@ -9,5 +9,7 @@
  <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="dragon" revision="corvus" />
  <project path="kernel/xiaomi/veux" name="kernel_veux" remote="dragon" revision="corvus" />
  
+ <!-- Hals -->
+ <project path="hardware/xiaomi" name="android_hardware_qcom-caf_sm8350_display" remote="dragon" revision="lineage-19.1-caf-sm8350" />
  
  </manifest>
