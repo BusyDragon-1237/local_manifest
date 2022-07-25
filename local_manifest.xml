@@ -1,43 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
- <!-- Remotes -->
- <remote name="ki" 
-         fetch="https://github.com/Dragon-1237" />
+ <!--Remote-->
+ <remote name="dragon" fetch="https://github.com/Dragon-1237" />
 
  <!-- Trees -->
-
- <!-- Device Tree -->
- <project path="device/xiaomi/veux" 
-          name="device_xiaomi_veux" 
-          remote="ki" 
-          revision="corvus" /> 
-
- <!-- Common Tree -->
- <project path="device/xiaomi/veux-common" 
-          name="device_xiaomi_veux-common" 
-          remote="ki" 
-          revision="corvus" />
-
- <!-- Kernel Tree -->
- <project path="kernel/xiaomi/veux" 
-          name="kernel_veux" 
-          remote="ki" 
-          revision="corvus" />
-
- <!-- Hardware -->
- <project path="hardware/xiaomi" 
-          name="android_hardware_qcom-caf_sm8350_display" 
-          remote="ki" 
-          revision="lineage-19.1-caf-sm8350" />
-
- <!-- Vendor -->
- <project path="vendor/xiaomi/veux" 
-          name="vendor_xiaomi_veux" 
-          remote="ki" 
-          revision="twelve" />
-
-
+ <project path="device/xiaomi/veux" name="device_xiaomi_veux" remote="dragon" revision="corvus" />
+ <project path="device/xiaomi/veux-common" name="device_xiaomi_veux-common" remote="dragon" revision="corvus" />
+ <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="dragon" revision="corvus" />
+ <project path="kernel/xiaomi/veux" name="kernel_veux" remote="dragon" revision="corvus" />
  
-
-</manifest>
+ 
+ </manifest>
