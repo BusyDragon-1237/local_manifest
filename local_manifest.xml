@@ -6,7 +6,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/veux" name="device_xiaomi_veux" remote="dragon" revision="corvus" />
  <project path="device/xiaomi/veux-common" name="device_xiaomi_veux-common" remote="dragon" revision="corvus" />
- <project path="vendor/xiaomi/veux" name="vendor_xiaomi_veux" remote="dragon" revision="corvus" />
+ <project path="vendor/xiaomi/" name="vendor_xiaomi_veux" remote="dragon" revision="corvus" />
  <project path="kernel/xiaomi/veux" name="kernel_veux" remote="dragon" revision="corvus" />
  
  <!-- Hals -->
