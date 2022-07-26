@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!--Remote-->
-    <remote name="dragon" fetch="https://github.com/Dragon-1237" />
+    <remote name="dragon" fetch="https://gitlab.com/Dragon-1237" />
     
     <!-- Trees -->
     <project path="device/xiaomi/veux" name="Dragon-1237/device_xiaomi_veux.git" remote="github" revision="corvus" />
     <project path="device/xiaomi/veux-common" name="Dragon-1237/device_xiaomi_veux-common.git" remote="github" revision="corvus" />
-    <project path="vendor/xiaomi/" name="Dragon-1237/vendor_xiaomi_veux.git" remote="github" revision="corvus" />
+    <project path="vendor/xiaomi/" name="vendor_xiaomi_veux.git" remote="dragon" revision="corvus" />
     <project path="kernel/xiaomi/veux" name="Dragon-1237/kernel_veux.git" remote="github" revision="corvus" />
     
     <!-- Addons -->
