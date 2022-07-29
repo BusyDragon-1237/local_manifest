@@ -10,5 +10,5 @@
     <project path="kernel/xiaomi/veux" name="Dragon-1237/kernel_veux.git" remote="github" revision="corvus" />
     
     <!-- Addons -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi.git" remote="github" revision="lineage-19.1" />
+    <project path="hardware/xiaomi" name="DotOS/android_hardware_xiaomi.git" remote="github" revision="dot12.1" />
 </manifest>
