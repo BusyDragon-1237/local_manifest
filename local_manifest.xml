@@ -10,5 +10,5 @@
     <project path="kernel/xiaomi/veux" name="Dragon-1237/kernel_veux.git" remote="github" revision="corvus" />
     
     <!-- Addons -->
-    <project path="hardware/xiaomi" name="Dragon-1237/android_hardware_qcom-caf_sm8350_display" remote="github" revision="lineage-19.1-caf-sm8350" />
+    <project path="hardware/xiaomi" name="xiaomi-sm6375-devs/android_hardware_qcom-caf_sm8350_display.git" remote="github" revision="lineage-19.1-caf-sm8350" />
 </manifest>
