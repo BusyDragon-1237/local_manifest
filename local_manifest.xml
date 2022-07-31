@@ -11,6 +11,6 @@
     
     <!-- Addons -->
     <project path="hardware/xiaomi" name="DotOS/android_hardware_xiaomi.git" remote="github" revision="dot12.1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DotOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="github" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DotOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" revision="dot12.1" remote="github" />
 
 </manifest>
