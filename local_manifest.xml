@@ -5,7 +5,6 @@
     
     <!-- Trees -->
     <project path="device/xiaomi/veux" name="Dragon-1237/device_xiaomi_veux.git" remote="github" revision="corvus" />
-    <project path="device/xiaomi/veux-common" name="Dragon-1237/device_xiaomi_veux-common.git" remote="github" revision="corvus" />
     <project path="vendor/xiaomi/" name="vendor_xiaomi_veux.git" remote="dragon" revision="corvus" />
     <project path="device/xiaomi/veux-kernel" name="Dragon-1237/kernel_veux.git" remote="github" revision="corvus" />
     <project path="kernel/xiaomi/veux" name="Dragon-1237/android_kernel_xiaomi_sm8350.git" remote="github" revision="veux-k" />
