@@ -2,13 +2,30 @@
 <manifest>
     <!--Remote-->
     <remote name="dragon" fetch="https://gitlab.com/Dragon-1237" />
+    <remote name="los" fetch="https://github.com/LineageOS" />	
     
     <!-- Trees -->
     <project path="device/xiaomi/veux" name="Dragon-1237/device_xiaomi_veux.git" remote="github" revision="spark" />
-    <project path="device/xiaomi/veux-common" name="Dragon-1237/device_xiaomi_veux-common.git" remote="github" revision="spark" />
     <project path="vendor/xiaomi/" name="vendor_xiaomi_veux.git" remote="dragon" revision="corvus" />
-    <project path="kernel/xiaomi/veux" name="Dragon-1237/kernel_veux.git" remote="github" revision="corvus" />
+    <project path="device/xiaomi/veux-kernel" name="Dragon-1237/kernel_veux.git" remote="github" revision="corvus" />
+    <project path="kernel/xiaomi/sm6375" name="Dragon-1237/android_kernel_xiaomi_sm8350.git" remote="github" revision="veux-k" />
     
+    <!-- Hals -->
+   <remove-project name="android_hardware_qcom-caf_sm8350_display" />
+   <project path="hardware/qcom-caf/sm8350/display" name="Dragon-1237/android_hardware_qcom-caf_sm8350_display.git" remote="github" revision="lineage-19.1-caf-sm8350" />
+	
     <!-- Addons -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi.git" remote="github" revision="lineage-19.1" />
+    <project path="hardware/xiaomi" name="Spark-Rom/hardware_xiaomi.git" remote="github" revision="spark" />
+    
+    <!-- Remove And Addition -->
+    <remove-project name="platform_vendor_spark"/>
+    <project path="vendor/spark" name="Dragon-1237/platform_vendor_spark.git" remote="github" revision="spark" />
+
+    <!-- remove -->
+    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+	
+    <!-- Prebuilts -->
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-19.1" />
 </manifest>
