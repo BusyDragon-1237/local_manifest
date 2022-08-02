@@ -19,7 +19,7 @@
     <project path="hardware/xiaomi" name="DotOS/android_hardware_xiaomi.git" remote="github" revision="dot12.1" />
     
     <!-- Remove And Addition -->
-    <remove-project name="android_vendor_dot"/>
+    <remove-project name="android_vendor_dot" />
     <project path="vendor/dot" name="android_vendor_dot1.git" remote="lion" revision="dot12.1" />
 
     <!-- remove -->
