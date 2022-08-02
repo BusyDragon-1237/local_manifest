@@ -3,7 +3,7 @@
     <!--Remote-->
     <remote name="dragon" fetch="https://gitlab.com/Dragon-1237" />
     <remote name="los" fetch="https://github.com/LineageOS" />	
-    <remote name="dot10" fetch="https://github.com/Dragon-1237" />	
+    <remote name="lion" fetch="https://github.com/Dragon-1237" />	
     
     <!-- Trees -->
     <project path="device/xiaomi/veux" name="Dragon-1237/device_xiaomi_veux.git" remote="github" revision="corvus" />
@@ -20,7 +20,7 @@
     
     <!-- Remove And Addition -->
     <remove-project name="android_vendor_dot"/>
-    <project path="vendor/dot" name="android_vendor_dot" remote="dot10" revision="dot12.1" />
+    <project path="vendor/dot" name="android_vendor_dot1.git" remote="lion" revision="dot12.1" />
 
     <!-- remove -->
     <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
