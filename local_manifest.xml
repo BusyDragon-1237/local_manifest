@@ -18,11 +18,4 @@
     <remove-project name="xd_vendor_xdroid" />
     <project path="vendor/spark" name="Dragon-1237/xd_vendor_xdroid.git" remote="github" revision="twelve" />
 
-    <!-- remove -->
-    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-	
-    <!-- Prebuilts -->
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-19.1" />
 </manifest>
