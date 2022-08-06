@@ -9,13 +9,5 @@
     <project path="vendor/xiaomi/" name="vendor_xiaomi_veux.git" remote="dragon" revision="corvus" />
     <project path="device/xiaomi/veux-kernel" name="Dragon-1237/kernel_veux.git" remote="github" revision="corvus" />
     <project path="kernel/xiaomi/sm6375" name="Dragon-1237/android_kernel_xiaomi_sm8350.git" remote="github" revision="veux-k" />
-    
-    <!-- Hals -->
-   <remove-project name="android_hardware_qcom_display" />
-   <project path="hardware/qcom-caf/sm8350/display" name="Dragon-1237/android_hardware_qcom-caf_sm8350_display.git" remote="github" revision="lineage-19.1-caf-sm8350" />
-    
-    <!-- Remove And Addition -->
-    <remove-project name="xd_vendor_xdroid" />
-    <project path="vendor/spark" name="Dragon-1237/xd_vendor_xdroid.git" remote="github" revision="twelve" />
 
 </manifest>
