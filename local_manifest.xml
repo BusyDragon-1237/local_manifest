@@ -12,21 +12,10 @@
     <project path="kernel/xiaomi/sm6375" name="Dragon-1237/android_kernel_xiaomi_sm8350.git" remote="github" revision="veux-k" />
     
     <!-- Hals -->
-   <remove-project name="android_hardware_qcom-caf_sm8350_display" />
-   <project path="hardware/qcom-caf/sm8350/display" name="Dragon-1237/android_hardware_qcom-caf_sm8350_display.git" remote="github" revision="lineage-19.1-caf-sm8350" />
+    <remove-project name="android_hardware_qcom_display" />
+    <project path="hardware/qcom-caf/sm8350/display" name="Dragon-1237/android_hardware_qcom-caf_sm8350_display.git" remote="github" revision="lineage-19.1-caf-sm8350" />
 	
     <!-- Addons -->
     <project path="hardware/xiaomi" name="DotOS/android_hardware_xiaomi.git" remote="github" revision="dot12.1" />
     
-    <!-- Remove And Addition -->
-    <remove-project name="android_vendor_dot" />
-    <project path="vendor/dot" name="android_vendor_dot1.git" remote="lion" revision="dot12.1" />
-
-    <!-- remove -->
-    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-	
-    <!-- Prebuilts -->
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="los" revision="lineage-19.1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-19.1" />
 </manifest>
