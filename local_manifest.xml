@@ -5,14 +5,14 @@
     <remote name="los" fetch="https://github.com/LineageOS" />	
     
     <!-- Trees -->
-    <project path="device/xiaomi/veux" name="Dragon-1237/device_xiaomi_veux.git" remote="github" revision="spark" />
+    <project path="device/xiaomi/veux" name="Dragon-1237/device_xiaomi_veux.git" remote="github" revision="voltage" />
     <project path="vendor/xiaomi/" name="vendor_xiaomi_veux.git" remote="dragon" revision="corvus" />
     <project path="device/xiaomi/veux-kernel" name="Dragon-1237/kernel_veux.git" remote="github" revision="corvus" />
     <project path="kernel/xiaomi/sm6375" name="Dragon-1237/android_kernel_xiaomi_sm8350.git" remote="github" revision="veux-k" />
     
 
     <!-- Remove And Addition -->
-    <remove-project name="platform_vendor_spark" />
-    <project path="vendor/spark" name="Dragon-1237/platform_vendor_spark.git" remote="github" revision="spark" />
+    <remove-project name="vendor_voltage" />
+    <project path="vendor/voltage" name="Dragon-1237/Dragon-1237/vendor_voltage.git" remote="github" revision="12l" />
 
 </manifest>
