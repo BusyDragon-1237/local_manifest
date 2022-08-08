@@ -3,17 +3,17 @@
     <!--Remote-->
     <remote name="dragon" fetch="https://gitlab.com/Dragon-1237" />
     <remote name="los" fetch="https://github.com/LineageOS" />	
-    <remote name="lion" fetch="https://github.com/Dragon-1237" />	
+    <remote name="lion" fetch="https://github.com/BusyDragon-1237" />	
     
     <!-- Trees -->
-    <project path="device/xiaomi/veux" name="Dragon-1237/device_xiaomi_veux.git" remote="github" revision="corvus" />
+    <project path="device/xiaomi/veux" name="BusyDragon-1237/device_xiaomi_veux.git" remote="github" revision="corvus" />
     <project path="vendor/xiaomi/" name="vendor_xiaomi_veux.git" remote="dragon" revision="corvus" />
-    <project path="device/xiaomi/veux-kernel" name="Dragon-1237/kernel_veux.git" remote="github" revision="corvus" />
-    <project path="kernel/xiaomi/sm6375" name="Dragon-1237/android_kernel_xiaomi_sm8350.git" remote="github" revision="veux-k" />
+    <project path="device/xiaomi/veux-kernel" name="BusyDragon-1237/kernel_veux.git" remote="github" revision="corvus" />
+    <project path="kernel/xiaomi/sm6375" name="BusyDragon-1237/android_kernel_xiaomi_sm8350.git" remote="github" revision="veux-k" />
     
     <!-- Hals -->
    <remove-project name="android_hardware_qcom-caf_sm8350_display" />
-   <project path="hardware/qcom-caf/sm8350/display" name="Dragon-1237/android_hardware_qcom-caf_sm8350_display.git" remote="github" revision="lineage-19.1-caf-sm8350" />
+   <project path="hardware/qcom-caf/sm8350/display" name="BusyDragon-1237/android_hardware_qcom-caf_sm8350_display.git" remote="github" revision="lineage-19.1-caf-sm8350" />
 	
     <!-- Addons -->
     <project path="hardware/xiaomi" name="DotOS/android_hardware_xiaomi.git" remote="github" revision="dot12.1" />
