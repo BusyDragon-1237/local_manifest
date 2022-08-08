@@ -13,6 +13,6 @@
 
     <!-- Remove And Addition -->
     <remove-project name="platform_vendor_spark" />
-    <project path="vendor/spark" name="Dragon-1237/platform_vendor_spark.git" remote="github" revision="spark" />
+    <project path="vendor/spark" name="BusyDragon-1237/platform_vendor_spark.git" remote="github" revision="spark" />
 
 </manifest>
