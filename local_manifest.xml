@@ -13,6 +13,6 @@
 
     <!-- Remove And Addition -->
     <remove-project name="vendor_voltage" />
-    <project path="vendor/voltage" name="Dragon-1237/Dragon-1237/vendor_voltage.git" remote="github" revision="12l" />
+    <project path="vendor/voltage" name="Dragon-1237/vendor_voltage.git" remote="github" revision="12l" />
 
 </manifest>
